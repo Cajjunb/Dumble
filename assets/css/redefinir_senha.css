@@ -1,0 +1,103 @@
+#popup
+{
+position: fixed;
+display: none;
+}
+
+#popup_branca
+{
+width: 270px;
+height: 110px;
+background: #ffffff;
+margin-top: 20%;
+margin-left: 50%;
+padding-top: 10px;
+}
+
+#popup_laranja
+{
+width: 250px;
+height: 90px;
+background: #f37525;
+position: relative;
+margin:0 auto;
+padding:7.5px;
+}
+
+#popup_laranja p:nth-child(1)
+{
+    font-family: BebasNeue;
+    font-size: 14px;
+    color: white;
+    margin-left: 40px;
+}
+
+#mandeseuemail
+{
+    font-family: BebasNeue;
+}
+
+#form p button { "font-family: BebasNeue, Arial, Helvetica, sans-serif;" }
+
+.inputs:-moz-placeholder
+{
+    color : orange;
+    font-family: clear-sans-thin;
+}
+
+
+.inputs::-moz-placeholder
+{
+    color : orange;
+    font-family: clear-sans-thin;
+}
+
+.inputs
+{
+    padding: 5px;
+}
+
+#Enviar
+{
+
+    width:70px;
+    
+    float: right;
+    background: transparent;
+    position: relative;
+    border: none;
+    color: #ffffff;
+    right: -100px;
+    top: 13px;
+}
+
+#Cancelar
+{
+    width:70px;
+    font-size:12px;
+    background: transparent;
+    position: relative;    
+    border: none;
+    color: #ffffff;
+    top: 13px;
+    right: 4px;
+}
+
+#popup_laranja input 
+{
+    width:220px;
+    height:20px;
+    
+}
+
+#popup_laranja textarea
+{
+    width: 220px;
+    height: 140px;
+}
+
+#buttons
+{
+    position:absolute;
+    margin-top: -15px;
+}

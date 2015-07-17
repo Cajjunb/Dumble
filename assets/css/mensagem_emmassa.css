@@ -1,0 +1,189 @@
+@-webkit-keyframes showSweetAlert {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7); }
+  45% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); }
+  80% {
+    transform: scale(0.95);
+    -webkit-tranform: scale(0.95); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+@-moz-keyframes showSweetAlert {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7); }
+  45% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); }
+  80% {
+    transform: scale(0.95);
+    -webkit-tranform: scale(0.95); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+@keyframes showSweetAlert {
+  0% {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7); }
+  45% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); }
+  80% {
+    transform: scale(0.95);
+    -webkit-tranform: scale(0.95); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+@-webkit-keyframes hideSweetAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  100% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5); } }
+@-moz-keyframes hideSweetAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  100% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5); } }
+@keyframes hideSweetAlert {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  100% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5); } 
+}
+
+
+
+#mensagem_emmassa_popup
+{
+
+  -webkit-animation: showSweetAlert 0.3s;
+  -moz-animation: showSweetAlert 0.3s;
+  animation: showSweetAlert 0.3s;  
+    position: fixed;
+  /* right: 100%; */
+  /* top: 20%; */
+  right: 0;
+  top: 85px;
+  z-index: 2;
+  display: none;
+}
+
+#mensagem_emmassa_popup_branca
+{
+}
+
+#mensagem_emmassa_popup_laranja
+{
+
+    width: 350px;
+    height: 190px;
+    background: #f37525;
+    position: relative;
+    margin:0 auto;
+    padding:7.5px;
+}
+
+#mensagem_emmassa_popup_laranja p:nth-child(1)
+{
+    font-family: BebasNeue;
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+    
+}
+
+#mensagem_emmassa_mandesuaduvida
+{
+    font-family: BebasNeue;
+    color:white;
+}
+
+
+#mensagem_emmassa_form p button { "font-family: BebasNeue, Arial, Helvetica, sans-serif;" }
+
+.mensagem_emmassa_inputs:-moz-placeholder
+{
+    color : orange;
+    font-family: clear-sans-thin;
+}
+
+
+.mensagem_emmassa_inputs::-moz-placeholder
+{
+    color : orange;
+    font-family: clear-sans-thin;
+}
+
+.mensagem_emmassa_inputs
+{
+    width: 100%;
+    padding: 5px;
+}
+
+.mensagem_emmassa_left,
+.mensagem_emmassa_right,
+#mensagem_emmassa_buttons{
+    padding:0px;
+}
+
+#mensagem_emmassa_Enviar{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border: none;
+    border-radius: 0px;
+    font-family: bebasNeue;
+    background: #f37525;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#mensagem_emmassa_Cancelar{
+    border: none;
+    border-radius: 0px;
+    font-family: bebasNeue;
+    background: #f37525;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+}
+
+.mensagem_emmassa_popup  input 
+{
+    width:220px;
+    height:20px;
+    
+}
+
+.mensagem_emmassa_popup textarea
+{
+    width: 220px;
+    height: 140px;
+}
+
+#mensagem_emmassa_buttons
+{
+}
+
+.mensagem_emmassa_btn {
+}
+
+.mensagem_emmassa_btn:hover {
+  background: #e8e4e1;
+  text-decoration: none;
+}

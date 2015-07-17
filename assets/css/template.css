@@ -1,0 +1,192 @@
+
+html{
+
+	/*background:lightcyan;*/
+	background-image: url('../img/white_texture.png');
+
+}
+
+*{
+
+	font-family:  trebuchet ms;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li {
+    border-bottom: 1px dotted #aaaaaa;
+    width: 100%;
+    padding-bottom: 4px;
+}
+ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+td,th{
+}
+
+/* ###################################*/
+
+#content{
+	display: table;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+/* ###################################*/
+
+.wrap_table_grande{
+	height: 50%;
+	margin: 40 0 0 0;
+}
+
+.table_grande{
+	margin: 0 auto;
+	width: 100%;
+	text-align: justify;
+	font-family: cursive;
+}
+
+.table_grande .linha0{
+
+	background: whitesmoke;
+}
+
+.form_fonecedor{
+
+
+}
+
+.button{
+
+	display: inline-block;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background: #3859e0;
+	box-shadow: 4px 4px 20px 1px black
+
+}
+
+.button p{
+	display:inline-block;
+}
+
+.button img{
+
+	vertical-align: middle;
+	margin-left: 15px;
+}
+
+
+.form_fornecedor input{
+
+	width:33%;
+}
+
+
+.table_grande .linha_insercao{
+
+	height: 100px;
+}
+
+.table_grande .linha_insercao td:nth-child(2){
+
+	width:65%;
+
+}
+
+.pagination {
+
+	display: table;
+	margin: 0 auto;
+	margin-top:40px;
+	
+
+
+}
+
+.OK_ER_symbl{
+
+	display:none;
+	height: 20px;
+
+}
+
+.logo-usuario{
+
+	display: table;
+	margin: 0 auto;
+	color: white;
+	font-size: 30px;
+	font-style: oblique;
+}
+
+.menu-usuario{
+
+	display: table;
+	margin: 0 auto;
+
+}
+
+.menu-usuario a{
+
+	text-decoration: none;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	color:white;
+
+}
+
+/* ############################## */
+
+.box{
+	background: #BFB6A0;
+	margin: 20px;
+	padding: 25px;
+	box-shadow: 4px 4px 20px 1px black;
+}
+
+
+
+.system-message{
+
+	display: table;
+	height: 60px;
+	position: fixed;
+	text-align: center;
+	width: 400px;
+	/* margin: 0 auto; */
+	/* background: #083766; */
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: black;
+	background: rgba(0,0,0,0.8);
+
+}
+
+.display-inline{
+
+	display: inline-block;
+}
+
+/* ################################## */
+
+.header-usuario{
+
+	margin: 20px;
+	padding: 25px;
+
+}

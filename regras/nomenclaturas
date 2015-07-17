@@ -1,0 +1,37 @@
+
+
+Nomenclatura:
+
+
+Controllers:
+
+Nome dos Constrollers: Singular Exemplo "usuario"
+
+Nome de Funções: <verbo_no_infinitivo>_<substantivo>	Exemplo: "listar_usuario"
+
+Nome de Funções De processamento: <verbo_no_Gerundio>_<substantivo>.	Exemplo: "cadastrando_"
+
+////////////////////////////////////////////////////////////
+
+
+Models:
+
+Nome do Model: <nome do controller>_model	Exemplo: "usuario_model"
+
+Nome de Funções: Verbo_<tabela_utilizada>		Exemplo: "selecionar_usuario"
+
+////////////////////////////////////////////////////////////
+
+
+Views:
+
+Nome das views:	verbo_<nome do controller>	Exemplo: "listar_usuario"
+
+
+
+///////////////////////////////////////////////////////////////////
+
+Nomenclatura de Css
+
+Nome das classes = <nome do arquivo de css>_<substantivo>
+

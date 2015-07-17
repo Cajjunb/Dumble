@@ -1,0 +1,246 @@
+#popup_footer{
+
+	margin-top: 60px;
+
+}
+
+.popup_espacamento{
+
+	margin-bottom: 15px;
+
+}
+
+.popup_espacamento .popup_file{
+	color:#f5852e;
+    font-size: 15px;
+    font-family: bebasNeue;  
+}
+
+.popup_imagem{
+	height: 140px;
+	width: 100px;
+}
+.popup_img{     /*foto da solicitacao de amizade*/
+	height: 70px;
+  	width: 70px;
+}
+
+.popup_input{
+
+	background-color:#f5852e;
+
+	color:white;
+
+	font-family: clear-sans-thin;
+
+	 resize: none;
+
+}
+
+.popup_inputLeft{
+
+	min-width: 165px;
+
+}
+
+.pop_inputRight{
+
+	margin-left: 40%
+
+}
+
+.popup_input::-webkit-input-placeholder {
+
+    color: white;
+
+    font-size: 12px;
+
+    font-family: clear-sans-thin;
+
+    border-radius: 0px;
+
+}
+
+
+
+.popup_input:-moz-placeholder{
+
+    color: white;
+
+    font-size: 12px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+.popup_input::-moz-placeholder {
+
+    color: white;
+
+    font-size: 12px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+.popup_input:-ms-input-placeholder {
+
+    color: white;
+
+    font-size: 12px;
+
+    font-family: clear-sans-thin;
+
+}
+
+.popup_tituloFundo{
+
+	background: #f5852e;
+
+}
+
+.popup_titulo{
+
+	color:white;
+
+	text-decoration: blink;
+
+	font-family: BebasNeue;
+
+	
+
+}
+
+.popup_texto{
+
+	color:#f5852e;
+
+}
+
+.popup_caixaConfiguracoes{
+
+	max-width: 900px;
+
+	background-color: rgb(234,234,234);
+  padding-bottom: 20px;
+
+}
+
+
+.popup_botoes{
+	position: absolute;
+  	bottom: 50px;
+  	right: 65px;
+}
+
+
+.popup_botao1{
+
+	background-color: #f5852e;
+	width:120px;
+	color: white;
+
+}
+
+.popup_botao2{
+
+	background-color: rgb(234,234,234);
+	width:120px;
+	color: #f5852e;
+
+}
+
+
+
+.popup_caixinha{
+
+	min-height: 80px;
+
+	min-height: 120px;
+
+}
+
+.popup_fundo1{
+
+	background-color: #f5852e;
+
+	min-height: 70px;
+
+
+
+}
+
+.popup_fundo2{
+
+	background-color: rgb(234,234,234);
+
+	min-height: 70px;
+
+}
+
+
+
+.popup_caixaDeconteudo{	
+
+    border-style: solid;
+
+    border-color: rgb(211,211,211);
+
+    border-width: 1px 0px;
+
+}
+
+
+
+.popup_botao, .popup_botao:focus, .popup_botao:active{
+
+	outline:0;
+
+}
+
+
+
+/*.modal {
+
+ overflow-y: auto;
+
+
+
+}
+
+
+
+.modal-open {
+
+ overflow: auto;
+
+}*/
+
+
+
+/*
+
+body.modal-open-noscroll {
+
+  	margin-right: 0;
+  	overflow: hidden;
+  	margin-left: 0;
+  	position: fixed;
+}
+
+.modal-open-noscroll .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+
+  margin-right: 0;
+
+  margin-left: 0;
+
+}
+ */
+.modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+padding-right: 17px;
+}
+

@@ -1,0 +1,204 @@
+.template_usuario_header{
+	height:85px;
+	background:#fff;
+	z-index: 2;
+	position: fixed;
+	box-shadow: 3px 1px 19px #111111;
+	min-width: 1370px;
+}
+
+.template_usuario_header div{
+	display:table;
+	height: 85px;
+}
+
+.template_usuario_logo_header{
+	width:270px;
+	line-height: 85px;
+	text-align: right;
+}
+
+.template_usuario_logo_header a{
+	font-family: BebasNeue;
+	display:table-cell;
+	font-size: 30px;
+	color: #f5882e;
+  	float: right;	
+	text-decoration: none;
+}
+.template_usuario_search {
+}
+
+.template_usuario_search  form{
+
+}
+
+.template_usuario_search table{
+	height:100%;
+}
+
+.template_usuario_faixa_esquerda{
+  min-height: 2150px;
+	width:333px;
+	position: absolute;
+    background: url('../img/barra_laranja_lateral.png');
+    background-size: 100% 100%;
+}
+
+.template_usuario_search input{
+	height: 35px;
+}
+
+.template_usuario_icones table {
+	height:85px;
+}
+.template_usuario_icones a {
+	height:45px;
+	width: 35px;
+	margin-right: 20px;
+}
+.template_usuario_icones a img{
+  height: 50px;
+}
+
+.template_usuario_menu{
+	width: 120px;
+}
+
+.template_usuario_menu:hover div{
+	opacity: 1;
+	display:block;
+}
+
+.template_usuario_menu table{
+	height:85px;
+}
+.template_usuario_menu span{
+	font-family:BebasNeue;
+	text-transform: uppercase;
+}
+
+.template_usuario_caixa{
+
+	width:120px;
+	height:100px;
+	background-color:white;
+	position: absolute;
+	top: 85px;
+	left: 0px;
+	margin-top: 20px;
+	padding: 0px;
+	display: none;
+	opacity:0;
+
+}
+
+.template_usuario_caixa ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.template_usuario_caixa ul li a{
+	color: #f5852e;
+	font-family: BebasNeue;
+}
+
+.template_usuario_caixa ul li a:hover{
+	color: white;
+	background:#f5852e;
+}
+
+
+.template_usuario_informacoes{
+    display: table;
+    text-align: right;
+    font-size: 13px;
+    font-family: clear-sans;
+    font-weight: 100;
+ 
+
+}
+
+.template_usuario_informacoes span{
+    display: table-cell;
+    vertical-align: middle;
+    color:#f37627;
+}
+
+
+.template_usuario_informacoes span ul{
+    list-style: none;
+    padding:0px;
+}
+
+.template_usuario_contato{
+    text-align: right;
+}
+.template_usuario_contato ul{
+    list-style: none;
+    font-size: 17px;
+    padding: 0px;
+}
+
+.template_usuario_contato ul li{
+    font-family: BebasNeue;
+    color:#f37627;
+}
+
+.template_usuario_contato ul li:nth-child(2){
+    font-size: 23px;
+    color:#f37627;
+}
+
+
+.template_usuario_contato ul li a{
+    font-family: BebasNeue;
+    color:#f37627;   
+}
+
+.template_usuario_logo{
+    height: 350px;
+    width: 300px;
+    position: fixed;
+    top: 75%;
+    left: -11%;
+    /* right: 133px; */
+    /* bottom: 160px; */
+    border-radius: 100%;
+    background: #f5852e;
+  box-shadow: 0px 0px 1px #000029;
+}
+
+.template_usuario_logo img{
+    height: 80px;
+    position: absolute;
+	right: 17%;
+	top: 15%;
+    border-radius: 25px;
+}
+
+#content{
+  min-height: 2150px;
+	padding-top: 80px;
+	max-width: 1350px;
+	padding-left: 20%;
+	background: #ebebeb;
+}
+
+#content_listagem_modelos{
+	min-height: 1100px;
+	overflow: hidden;
+	padding-top: 80px;
+	max-width: 1350px;
+	background: #ebebeb;
+}
+
+#footer{
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
+}
+
+body{
+	position: relative;
+}

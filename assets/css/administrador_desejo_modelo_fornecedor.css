@@ -1,0 +1,804 @@
+.administrador_div_upposbox{
+
+    padding: 0px;
+
+    background-color: #f37525;
+
+}
+
+
+
+.administrador_div_upposboxtitle{
+
+    background-color: #f37525;
+
+    padding-top: 6px;
+
+    padding-left: 15px;
+
+    padding-bottom: 6px;
+
+    color: white;
+
+    font-weight: 600;
+
+    font-size: 18px;
+
+    font-family: clear-sans-medium;
+
+}
+
+
+
+.administrador_table_upposboxlist, .administrador_table_categoriabox, .administrador_table_produtobox, .administrador_table_modelobox{
+
+    background-color: #dcdddf;
+
+    overflow-y:auto;
+
+    overflow-x:hidden;
+
+    width: 100%;
+
+    line-height: 20px;
+
+    /* Número de fornecedores a serem mostrados. 1:20px */
+
+    max-height:80px;
+
+}
+
+
+
+.administrador_row_upposboxlist{
+
+    background-color: #dcdddf;
+
+    transition: background 320ms linear;
+
+    -webkit-transition: background 320ms linear;
+
+    -moz-transition: background 320ms linear;
+
+}
+
+
+
+.administrador_icon_edit_contato{
+
+    cursor: pointer;
+
+    height:12px;
+
+    width:12px;
+
+    margin-left: 7px;
+
+
+}
+
+
+
+.administrador_lista_nameuser, .administrador_lista_produtos, .administrador_lista_categorias, .administrador_lista_modelos, .administrador_lista_produtos, administrador_lista_categorias, administrador_lista_modelos{
+
+    padding-left:18px;
+
+    font-family:clear-sans-light;
+
+    font-size:14px;
+
+    color:#f5852e;
+
+    width:100%;
+
+    cursor: pointer;
+
+}
+
+
+
+.administrador_signup_link, .administrador_signup_link:link,
+
+.administrador_signup_link:visited, .administrador_signup_link:active{
+
+    font-family:clear-sans-light;
+
+    font-size:12px;
+
+    color:#f5852e;
+
+    text-decoration: none;
+
+}
+
+
+
+.administrador_signup_link:hover{
+
+    font-family:clear-sans-light;
+
+    font-size:12px;
+
+    color:#f5852e;
+
+    text-decoration: none;
+
+}
+
+
+
+.administrador_signup_user{
+
+    padding-left: 7px;
+
+    padding-top: 3px;
+
+    padding-bottom: 3px;
+
+    background-color:#dcdddf;
+
+    cursor: pointer;
+
+}
+
+
+
+.administrador_form_newsignup{
+
+    font-family: clear-sans-thin;
+
+    color:#f5852e;
+
+}
+
+
+
+.administrador_seta{
+
+    height: 16px;
+
+    width: 16px;
+
+    margin-top: 366%;
+
+    margin-left: -10%;
+
+}
+
+
+
+.administrador_seta, .administrador_div_newsignup, .administrador_div_dwnposboxtitle1,
+
+.administrador_div_dwnposbox, .administrador_foto_newsignup, .administrador_div_edituserdata{
+
+    display:none;
+
+}
+
+
+
+.administrador_div_dwnposboxtitle1{
+
+    margin-top: 50%;
+
+    margin-left: -19%;
+
+    background-color: #f37525;
+
+    padding-top: 6px;
+
+    padding-left: 15px;
+
+    padding-bottom: 6px;
+
+    color: white;
+
+    font-weight: 600;
+
+    font-size: 18px;
+
+}
+
+
+
+.administrador_div_upposboxtitle2{
+
+    margin-left: -19%;
+
+    padding-top: 6px;
+
+    padding-left: 15px;
+
+    padding-bottom: 6px;
+
+    background-color: #f37525;
+
+    color: white;
+
+    font-weight: 600;
+
+    font-size: 18px;
+
+}
+
+
+
+.administrador_div_dwnposbox{
+
+    background-color: #dcdddf;
+
+    margin-left: -19%;
+
+    padding-left: 8%;
+
+    padding-top: 4%;
+
+}
+
+
+
+.administrador_div_backgrounddiv2{
+
+    background-color: #dcdddf;
+
+    margin-left: -19%;
+
+    padding-left: 8%;
+
+    padding-top: 4%;
+
+}
+
+
+
+.administrador_input_nameuser{
+
+    border:none;
+
+    background-color:#f37525;
+
+    color:white;
+
+    width: 92.5%;
+
+}
+
+
+
+.administrador_ok_botao{
+
+    background-color:#f37525;
+
+    color:white;
+
+    font-family:clear-sans-medium;
+
+    font-size:16px;
+
+    font-weight: 800;
+
+    text-decoration:none;
+
+    border: none;
+
+    margin-top: 6%;
+
+    margin-bottom: 6%;
+
+    padding: 2% 14% 2% 14%;
+
+}
+
+
+
+.administrador_cancelar_botao{
+
+    margin-left: 20%;
+
+    color:#f5852e;
+
+    font-family:clear-sans-thin;
+
+    cursor: pointer;
+
+}
+
+
+
+.perfil_user_AF{
+
+    background-color: #dcdddf;
+
+    padding-top:5%;
+
+    padding-bottom: 10%;
+
+    padding-left: 1.5%;
+
+}
+
+
+
+.nomeown_adminmudando{
+
+    border:none;
+
+    background-color:#f37525;
+
+    color:white;
+
+}
+
+
+
+.admin_ownnomemudando_okbutton{
+
+    position: absolute;
+
+    background-color:#f37525;
+
+    color:white;
+
+    font-family:clear-sans-medium;
+
+    text-decoration:none;
+
+    border: none;
+
+    font-size:16px;
+
+    font-weight: 800;
+
+    top: 64px;
+
+    padding: 2% 10% 2% 10%;
+
+}
+
+
+
+.admin_ownnomemudando_cclbutton{
+
+    position: absolute;
+
+    top: 70px;
+
+    left: 140px;
+
+    font-family: 'clear-sans-light';
+
+    color: #f37525;
+
+    cursor: pointer;
+
+}
+
+
+
+#arrow_ownprofile{
+
+    height: 12px;
+
+    width: 12px;
+
+    position: absolute;
+
+    display: none;
+
+
+
+}
+
+
+
+#change_own_name{
+
+    height: 110px;
+
+    width: 80%;
+
+    background-color: #dcdddf;
+
+    margin-left: 7%;
+
+    padding-top: 3%;
+
+    padding-left: 5%;
+
+    display: none;
+
+}
+
+
+
+#change_own_name2{
+
+    position: absolute;
+
+    height: 145px;
+
+    width: 80%;
+
+    background-color: #dcdddf;
+
+    margin-left: 7%;
+
+    padding-top: 3%;
+
+    padding-left: 5%;
+
+    top: 20px;
+
+    display: none;
+
+}
+
+#div_filtro_desejos{
+    width: 70%;
+    padding: 15px;
+    position: fixed;
+    z-index: 3;
+    border-radius: 10px;
+    border: 3px solid #D58512;
+    background-color:white;
+    -webkit-box-shadow: 11px 10px 22px -10px rgba(120,118,120,1);
+    -moz-box-shadow: 11px 10px 22px -10px rgba(120,118,120,1);
+    box-shadow: 11px 10px 22px -10px rgba(120,118,120,1);
+}
+
+.label_filtro{
+    color: black;
+    font-family: "clear-sans-light";
+}
+
+
+
+/* ## webkit para customizar o placeholder do input ## */
+
+.administrador_signup_link::-webkit-input-placeholder {
+
+    color: white;
+
+    font-size: 18px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+.administrador_signup_link:-moz-placeholder{
+
+    color: white;
+
+    font-size: 18px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+.administrador_signup_link::-moz-placeholder {
+
+    color: white;
+
+    font-size: 18px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+.administrador_signup_link:-ms-input-placeholder {
+
+    color: white;
+
+    font-size: 18px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+.admin_own_edit::-webkit-input-placeholder {
+
+    color: #f37525;
+
+    font-size: 18px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+.admin_own_edit:-moz-placeholder{
+
+    color: #f37525;
+
+    font-size: 18px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+.admin_own_edit::-moz-placeholder {
+
+    color: #f37525;
+
+    font-size: 18px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+.admin_own_edit:-ms-input-placeholder {
+
+    color: #f37525;
+
+    font-size: 18px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+#administrador_input_pesquisar ,
+
+#administrador_input_pesquisar_categoria,
+
+#administrador_input_pesquisar_produto,
+
+#administrador_input_pesquisar_modelo{
+
+    background-color: #DCDDDF;
+
+    border:none;
+
+    color:#f5852e;
+
+    font-size:12px;
+
+    font-family:clear-sans-light;
+
+    margin-top:1%;
+
+    margin-bottom: 2%;
+
+    width:85%;
+
+}
+
+
+
+#administrador_input_pesquisar::-webkit-input-placeholder,
+
+#administrador_input_pesquisar_categoria::-webkit-input-placeholder,
+
+#administrador_input_pesquisar_produto::-webkit-input-placeholder,
+
+#administrador_input_pesquisar_modelo::-webkit-input-placeholder {
+
+    color: #f5852e;
+
+    font-size: 12px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+#administrador_input_pesquisar:-moz-placeholder,
+
+#administrador_input_pesquisar_categoria:-moz-placeholder,
+
+#administrador_input_pesquisar_produto:-moz-placeholder,
+
+#administrador_input_pesquisar_modelo:-moz-placeholder{
+
+    color: #f5852e;
+
+    font-size: 12px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+#administrador_input_pesquisar::-moz-placeholder ,
+
+#administrador_input_pesquisar_categoria::-moz-placeholder ,
+
+#administrador_input_pesquisar_produto::-moz-placeholder ,
+
+#administrador_input_pesquisar_modelo::-moz-placeholder {
+
+    color: #f5852e;
+
+    font-size: 12px;
+
+    font-family: clear-sans-thin;
+
+}
+
+
+
+#administrador_input_pesquisar:-ms-input-placeholder,
+
+#administrador_input_pesquisar_categoria:-ms-input-placeholder,
+
+#administrador_input_pesquisar_produto:-ms-input-placeholder,
+
+#administrador_input_pesquisar_modelo:-ms-input-placeholder {
+
+    color: #f5852e;
+
+    font-size: 12px;
+
+    font-family: clear-sans-thin;
+
+}
+
+/* ## Classes do plugin do jquery.mCustomScrollbar. Não mexer ## */
+
+._mCS_1 .mCSB_dragger .mCSB_dragger_bar{
+
+    background-color: #a8a8a8;
+
+}
+
+
+
+.mCSB_1_scrollbar .mCSB_dragger .mCSB_draggerRail{
+
+    width: 0px;
+
+}
+
+
+
+.mCSB_container{
+
+    width: 100%;
+
+}
+
+
+
+
+
+.mCSB_scrollTools{
+
+    height: 98%;
+
+}
+
+
+
+.mCSB_scrollTools .mCSB_draggerContainer{
+
+    top: 5px;
+
+}
+
+
+
+#cadastrar_categoria
+
+{
+
+    background: #f5852e;
+
+    border: none;
+
+    padding-left: 5px;
+
+    color: white;
+
+}
+
+
+
+#cadastrar_categoria::-moz-placeholder
+
+{
+
+    color:white;
+
+}
+
+
+
+#cadastrar_categoria:-moz-placeholder
+
+{
+
+    color:white;
+
+}
+
+
+
+#cadastrar_categoria::-webkit-input-placeholder
+
+{
+
+    color:white;
+
+}
+
+
+
+#cadastrar_categoria:-ms-input-placeholder
+
+{
+
+    color:white;
+
+}
+
+
+
+#cadastrar_produto
+
+{
+
+    background: #f5852e;
+
+    border: none;
+
+    padding-left: 5px;
+
+    color: white;
+
+}
+
+
+
+#cadastrar_produto::-moz-placeholder
+
+{
+
+    color:white;
+
+}
+
+
+
+#cadastrar_produto:-moz-placeholder
+
+{
+
+    color:white;
+
+}
+
+
+
+#cadastrar_produto::-webkit-input-placeholder
+
+{
+
+    color:white;
+
+}
+
+
+
+#cadastrar_produto:-ms-input-placeholder
+
+{
+
+    color:white;
+
+}

@@ -1,0 +1,100 @@
+#contato {
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+.OK_ER_symbl {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+label[for=nomeC] {
+    border-radius: 2px;
+}
+
+label[for=emailC] {
+    margin-left: 2px;
+}
+
+label[for=telefoneC] {
+    margin-left: -22px;
+}
+
+label[for=assuntoC] {
+    margin-left: -14px;
+}
+
+label[for=mensagemC] {
+    margin-left: -32px;
+}
+
+#enviarC {
+    margin-left: 20%;
+}
+
+#error_pw {
+    position: absolute;
+    margin-top: 5.7%;
+    margin-left: 1px;
+    border: 1px solid #7F0200;
+    background-color: #FF504C;
+    border-radius: 4px;
+    font-size: 12px;
+    box-shadow: 2px 2px 3px #888888;
+    font-family: Arial, "Times New Roman";
+    padding-left: 5px;
+    padding-right: 5px;
+    display: none;
+}
+
+#error_email {
+    position: absolute;
+    margin-top: 3.3%;
+    margin-left: 1px;
+    border: 1px solid #7F0200;
+    background-color: #FF504C;
+    border-radius: 4px;
+    font-size: 11px;
+    box-shadow: 2px 2px 3px #888888;
+    font-family: Arial, "Times New Roman";
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline;
+}
+
+#cadastrar_bt {
+    margin-left: 235px;
+    margin-top: 50px;
+}
+
+#success {
+    background-color: #2EFF1B;
+    height: 100px;
+    width: 60%;
+    font-size: 40px;
+    border: 2px solid #74FF68;
+    border-radius: 4px;
+    margin: auto;
+}
+
+#link_voltar_login {
+    text-decoration: none;
+    margin-left: 44%;
+}
+
+#mensagem1 {
+    width: 5%;
+    position: absolute;
+    left: 32%;
+    top: 17%;
+    background: red;
+    border-radius: 10%;
+    border: 1px black solid;
+}
+
+#mensagem p {
+    padding: 1% 2%;
+    color: #000;
+}

@@ -1,0 +1,162 @@
+#login {
+    border: 4px solid #989898;
+    width: 240px;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#login a,
+#login label,
+#login div,
+#login input {
+    display: table;
+    margin: 0 auto;
+}
+
+#edit_login {
+    border: 4px solid #989898;
+    width: 700px;
+    border-radius: 8px;
+    height: 300px;
+}
+
+#div_foto {
+    float: left;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color: #7F796A;
+}
+
+#div_info {
+    float: left;
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    background-color: #BFB6A0;
+}
+
+#login_bt {
+
+    /*margin-left: 80px;*/
+}
+
+#btn_img {
+    margin-left: 42px;
+}
+
+#dados_invalidos {
+    position: absolute;
+    margin-left: 40%;
+    border-radius: 8px;
+    margin-top: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #7F0200;
+    background-color: #FF504C;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+#user_foto {
+    width: 140px;
+    height: 160px;
+    display: inline-block;
+    /* margin-left: 30px; */
+    /* margin-top: 30px; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+form {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+label[for=n_calca] {
+    margin-left: 50px;
+}
+
+label[for=n_sapato] {
+    margin-left: 44px;
+}
+
+label[for=n_camisa] {
+    margin-left: 35px;
+}
+
+label[for=senha2] {
+    margin-left: -4px;
+}
+
+label[for=senha] {
+    margin-left: 122px;
+}
+
+label[for=email] {
+    margin-left: 123px;
+}
+
+label[for=nome] {
+    margin-left: 122px;
+}
+
+#btn_send {
+    margin-left: 320px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#aviso_envio {
+    position: absolute;
+    border-radius: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border: 2.5px solid #7F781D;
+    background-color: #FFF03A;
+    box-shadow: 2px 2px 3px #888888;
+}
+
+#file {
+    display: none;
+}
+
+#error_img {
+    position: absolute;
+    border-radius: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-left: 8%;
+    border: 2.5px solid #7F1E17;
+    background-color: red;
+    box-shadow: 2px 2px 3px #FF3C2D;
+    display: none;
+}
+
+#dados_admin {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#link_list, #edit_perfil {
+    text-decoration: none;
+    color: #FF530D;
+}
+
+#edit_perfil {
+    margin-left: 20px;
+}
+
+.login_form_input{
+    padding: 15px;
+    font-size: 30px;
+}
+
+
+div#login_botao_voltar{
+  position: fixed;
+  bottom: 25%;
+  right: 10%;
+  z-index: 5;
+}

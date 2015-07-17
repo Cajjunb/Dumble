@@ -1,0 +1,99 @@
+#cadastro{
+	border: 4px solid #989898;
+	margin-left: 33%;
+	margin-top: 2%;
+	width: 360px;
+	border-radius: 8px;
+	display: inline-block;
+}
+
+.OK_ER_symbl{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	display: none;
+}
+
+label[for=nome]{
+	margin-left: 127px;
+	margin-bottom: 5px;
+	border-radius: 2px;
+}
+
+label[for=email]{
+	margin-left: 128px;
+}
+
+label[for=senha]{
+	margin-left: 127px;
+}
+
+label[for=n_camisa]{
+	margin-left: 39px;
+}
+
+label[for=n_sapato]{
+	margin-left: 48px;
+}
+
+label[for=n_calca]{
+	margin-left: 53px;
+}
+
+label[for=n_camisaso]{
+	margin-left: 1px;
+}
+
+label[for=file]{
+	margin-left: 60px;
+}
+
+#error_pw{
+	position: absolute;
+	margin-top: 5.7%;
+	margin-left: 1px;
+	border: 1px solid #7F0200;
+	background-color: #FF504C;
+	border-radius: 4px;
+	font-size: 12px;
+	box-shadow: 2px 2px 3px #888888;
+	font-family: Arial, "Times New Roman";
+	padding-left: 5px;
+	padding-right: 5px;
+	display: none;
+}
+
+#error_email{
+	position: absolute;
+	margin-top: 3.3%;
+	margin-left: 1px;
+	border: 1px solid #7F0200;
+	background-color: #FF504C;
+	border-radius: 4px;
+	font-size: 11px;
+	box-shadow: 2px 2px 3px #888888;
+	font-family: Arial, "Times New Roman";
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline;
+}
+
+#cadastrar_bt{
+	margin-left: 235px;
+	margin-top: 50px;
+}
+
+#success{
+	background-color: #2EFF1B;
+	height: 100px;
+	width: 60%;
+	font-size: 40px;
+	border: 2px solid #74FF68;
+	border-radius: 4px;
+	margin: auto;
+}
+
+#link_voltar_login{
+	text-decoration: none;
+	margin-left: 44%;
+}

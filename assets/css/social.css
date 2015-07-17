@@ -1,0 +1,364 @@
+#convite_div {
+    background-color: #c9c9ff;
+    width: 650px;
+    padding: 12px;
+}
+
+#text_convite {
+    position: relative;
+    left: 48.5%;
+}
+
+#table_convites {
+    width: 100%;
+    background-color: #c0c0c0;
+    padding: 7px;
+    max-height: 100px;
+    overflow: scroll;
+}
+
+#convite_conteudo {
+    max-height: 94px;
+    overflow-y: scroll;
+}
+
+#amigos_div {
+    background-color: #c9c9ff;
+    width: 650px;
+    padding: 12px;
+}
+
+#text_amigos {
+    position: relative;
+    left: 48.5%;
+}
+
+#table_amigos {
+    width: 100%;
+    background-color: #2aa198;
+    padding: 7px;
+    max-height: 100px;
+    overflow: scroll;
+}
+
+#amigo_conteudo{
+	max-height: 94px;
+	overflow-y: scroll;
+}
+
+
+.mensagem{
+	min-width: 310px;
+	max-width: 310px;
+	min-height: 410px;
+    max-height: 410px; 
+    background-color: white;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+.dica{
+	min-width: 380px;
+	max-width: 380px;
+	min-height: 485px;
+    max-height: 485px;
+    background-color: white;
+}
+
+.comentario{
+	border-collapse: separate;
+    border-spacing: 0px 1px;
+}
+
+.foto_fundo{
+	background-image: url('');
+	background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.gradiente{
+    background: rgb(211,211,211); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(211,211,211,1) 2%, rgba(234,234,234,1) 20%, rgba(234,234,234,1) 80%, rgba(211,211,211,1) 98%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,rgba(211,211,211,1)), color-stop(20%,rgba(234,234,234,1)), color-stop(80%,rgba(234,234,234,1)), color-stop(98%,rgba(211,211,211,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(211,211,211,1) 2%,rgba(234,234,234,1) 20%,rgba(234,234,234,1) 80%,rgba(211,211,211,1) 98%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(211,211,211,1) 2%,rgba(234,234,234,1) 20%,rgba(234,234,234,1) 80%,rgba(211,211,211,1) 98%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(211,211,211,1) 2%,rgba(234,234,234,1) 20%,rgba(234,234,234,1) 80%,rgba(211,211,211,1) 98%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(211,211,211,1) 2%,rgba(234,234,234,1) 20%,rgba(234,234,234,1) 80%,rgba(211,211,211,1) 98%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d3d3', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-9 */
+
+}
+
+.social_gradienteCaixa{
+background: rgb(234,234,234);
+background: -moz-linear-gradient(left,  rgba(234,234,234,1) 0%, rgba(255,255,255,1) 2%, rgba(255,255,255,1) 98%, rgba(234,234,234,1) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(234,234,234,1)), color-stop(2%,rgba(255,255,255,1)), color-stop(98%,rgba(255,255,255,1)), color-stop(100%,rgba(234,234,234,1)));
+background: -webkit-linear-gradient(left,  rgba(234,234,234,1) 0%,rgba(255,255,255,1) 2%,rgba(255,255,255,1) 98%,rgba(234,234,234,1) 100%);
+background: -o-linear-gradient(left,  rgba(234,234,234,1) 0%,rgba(255,255,255,1) 2%,rgba(255,255,255,1) 98%,rgba(234,234,234,1) 100%);
+background: -ms-linear-gradient(left,  rgba(234,234,234,1) 0%,rgba(255,255,255,1) 2%,rgba(255,255,255,1) 98%,rgba(234,234,234,1) 100%);
+background: linear-gradient(to right,  rgba(234,234,234,1) 0%,rgba(255,255,255,1) 2%,rgba(255,255,255,1) 98%,rgba(234,234,234,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#eaeaea',GradientType=1 );
+
+}
+
+.input_pesquisar::-webkit-input-placeholder {
+    color: #f5852e;
+    font-size: 12px;
+    font-family: clear-sans-thin;
+    border-radius: 0px;
+
+    background-color: rgb(234,234,234);
+    border-radius: 5px;
+}
+
+.input_pesquisar:-moz-placeholder{
+    color: #f5852e;
+    font-size: 12px;
+    font-family: clear-sans-thin;
+    background-color: rgb(234,234,234);
+    border-radius: 5px;
+}
+
+.input_pesquisar::-moz-placeholder {
+    color: #f5852e;
+    font-size: 12px;
+    font-family: clear-sans-thin;
+    background-color: rgb(234,234,234);
+    border-radius: 5px;
+}
+
+.input_pesquisar:-ms-input-placeholder {
+    color: #f5852e;
+    font-size: 12px;
+    font-family: clear-sans-thin;
+    background-color: rgb(234,234,234);
+    border-radius: 5px;
+}
+.input_pesquisar{
+    resize: none;
+    color: #f5852e;
+    background-color: rgb(234,234,234);
+    border-radius: 5px;
+}
+
+.texto_estilo{
+	color: white; 
+	text-decoration: blink;
+	text-shadow: 2px 2px 2px gray;
+    text-align: right;
+}
+
+.texto{
+  font-family: clear-sans-thin;
+  font-weight: bold;
+    /*text-align: right;*/
+}
+
+.textoBebas{
+  font-family: bebasNeue;
+  
+}
+
+.social_alinhar
+{	
+	display: inline;
+	padding:0px;
+  min-height: 280px;
+}
+
+#imagens:hover .social_descricao_linha{
+	opacity: 0.9;
+    height:initial;
+    margin-top:-8%;
+    padding: 2%;
+    background-color: #f5852e;
+}
+
+.social_descricao_linha{
+  transition: 1s;
+  opacity: 0.3;
+  margin: 0px;
+  min-height: 65px;
+  margin-top: -8%; 
+  padding: 2%; 
+  background-color: #f5852e;
+
+}
+
+
+
+.branco{
+	color: white;
+}
+
+.laranja{
+	color:#f5852e;
+}
+
+.testando{
+	width: 7px;
+	position: absolute;
+	top: 18px;
+	opacity: 0.4;
+	display: block;
+	border-radius: 7px;
+    z-index: 99;
+    right: 1px;
+	height: 273.051948051948px;
+	background: rgb(0, 0, 0);
+}
+
+
+.bt,
+.bt:hover,
+.bt:focus,
+.bt:active {
+  border-color: transparent;
+  background-color: transparent;
+}
+.bt:hover,
+.bt:focus {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  outline:0;
+}
+.bt[disabled]:hover,
+fieldset[disabled] .bt:hover,
+.bt[disabled]:focus,
+fieldset[disabled] .bt:focus {
+  color: transparent;
+  text-decoration: none;
+}
+
+/*arrumar as imagens aqui*/
+.social_calibrarImagem{
+	min-width:140px;
+    min-height: 150px;
+}
+
+.social_feed{
+  min-height: 75px;
+  min-width: 305px;
+  max-height: 75px;
+  background: white;
+  min-width: 305px;
+}
+
+.social_data{
+	font-size: 70%;
+	color:#f5852e;
+}
+
+
+.social_rolagem::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+
+ 
+/* Handle */
+.social_rolagem::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgb(200,200,200); 
+     
+}
+.social_rolagem::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(211,211,211,0.2); 
+}
+
+.social_pesquisaDica{
+	margin-top: 5%;
+	background-color: rgb(234,234,234);
+	border-radius: 5px;
+}
+
+.social_jaTenho{
+  min-width: 720px;
+  min-height: 210px;
+  padding: 0px;
+  background-color: white;
+  padding-top:5px;
+}
+
+#social_descricao{
+    margin-bottom: 2%;
+    margin-right: 5%;
+    max-height: 15%;
+    max-width: 25%;
+    font-size: 80%;
+
+}
+
+.social_painel_amizade{    
+    text-align: right;
+      padding-top: 15px;
+
+}
+
+.social_painel_amizade form p{
+  font-size: 20px;
+}
+#social_meuNome{
+      text-align: left;
+      font-size: 45px;
+}
+
+.social_googleads{
+      padding: 5px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.social_caixa_mensagem_nao_amigos h1{
+    color: #f5852e;
+    font-family: bebasNeue;
+    text-align: center;
+}
+#imagens{
+    min-width: 760px;
+}
+
+.social_modelo_publicidade{
+  cursor:pointer;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.social_modelo_publicidade img{
+  height: 140px;
+  width: 180px;
+
+}
+
+.social_publicidade_span{
+    position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color:white;
+  background:#f5852e; 
+  font-family: bebasNeue;
+}
+
+#social_ads{
+  background: white;
+  width: 95%;
+    padding: 5px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.social_filtro input{
+  padding-left: 35px;
+}
+
+.social_filtro img{
+  position: absolute;
+  height: 20px;
+  margin-left: 6px;
+  margin-top: 3px;
+}

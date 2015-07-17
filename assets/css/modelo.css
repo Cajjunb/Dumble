@@ -1,0 +1,303 @@
+.models_list{
+    padding: 0;
+    height: 390px;
+}
+
+.modelo_div_pesquisar{
+	background-color: #f37525;
+	width: 100%;
+	padding: 2%;
+}
+
+#lupa_pesquisa_modelos{
+	height: 10px;
+	width: 10px;
+}
+
+#input_pesquisa_modelos{
+	margin-left: 2%;
+	border: none;
+	background-color: #f37525;
+	font-family: 'clear-sans-thin';
+	color: white;
+}
+
+.models_div_listagem{
+	background-color: #dcdddf;
+	width: 100%;
+	max-height: 45%;
+	padding: 0;
+	padding-left: 2%;
+	padding-bottom: 3%;
+}
+
+.modelo_div{
+	margin-left: 2%;
+	margin-top: 3%;
+	height: 180px;
+	width: 30.5%;
+	display:inline-block;
+}
+
+.modelo_div_imagem{
+	height: 59%;
+	position: relative;
+}
+
+.modelo_div_texto{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 5%;
+	background-color:white;
+	height: 40%;
+}
+
+#modelo_div_separate{
+	background-color: #f37525;
+	width: 100%;
+	height: 1%;
+}
+
+#imagem_modelo{
+	width: 10px;
+	height: 10px;
+}
+
+.info_produto_texto{
+	font-family: 'clear-sans-medium';
+	color: #f37525;
+}
+
+#menu_foto{
+	position: absolute;
+	width: 30%;
+	height: 15%;
+	right: 0;
+	visibility: hidden;
+	background-color: white;
+}
+
+.modelo_seta{
+	margin-top: 20%;
+	width: 50%;
+}
+
+.titulo_novo_modelo{
+	background-color: #f37525;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-bottom: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "clear-sans-medium";
+    cursor:pointer;
+}
+
+.novo_modelo_div{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    background-color: #dcdddf;
+    width: 100%;
+}
+
+.novo_modelo_div2{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    background-color: #dcdddf;
+    width: 100%;
+}
+
+.input_modelo_novo{
+    border: none;
+    background-color: #f37525;
+    color: white;
+    font-family: "clear-sans-thin";
+    width: 90%;
+}
+
+.novo_modelo_info{
+    font-family: "clear-sans-light";
+    color: #f37525;
+}
+
+#botao_enviar_modelo{
+	margin-top: 10%;
+}
+
+.foto_modelo_cadastro{
+	margin-left: 2%;
+	height:210px;
+	padding: 0;
+}
+
+.export_import_models_link, .export_import_models_link:link,
+.export_import_models_link:visited, .export_import_models_link:active{
+	font-family:"clear-sans-light";
+	text-decoration: none;
+	color: #F37525;
+}
+
+.listar_desejos_container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.coluna_desejos_1{
+    padding:0;
+    padding-bottom:1.5%;
+    margin-left: 9%;
+}
+
+.coluna_desejos_2ou3{
+    padding:0;
+    padding-bottom:1.5%;
+    margin-left: 5.5%;
+}
+
+.div_desejo{
+    margin-top:25%;
+    width:100%;
+    height:405px;
+}
+
+.div_desejo_imagem{
+    height:180px;
+    position:relative;
+}
+
+.div_desejo_imagem_img{
+    width:100%;
+    height:100%;
+}
+
+.div_desejo_imagem_legenda{
+    position:absolute;
+    bottom:0;
+    background-color: white;
+    height:40px;
+    width:100%;
+    opacity: 0.6;
+}
+
+.div_desejo_legenda_texto{
+    color:black;
+    font-size:15px;
+    position:absolute;
+    left:54px;
+    top:10px;
+    font-family:'clear-sans-light';
+}
+
+.div_desejo_legenda_nomeproduto{
+    background-color:#363636;
+    color:white;
+    width:100%;
+    height:33%;
+    padding-top:5%;
+    padding-left:7.5%;
+    font-family:'clear-sans-light';
+}
+
+.div_desejo_legenda_nomefornecedor{
+    background-color:#898989;
+    color:white;
+    width:100%;
+    height:33%;
+    padding-top:5%;
+    padding-left:7.5%;
+    font-family:'clear-sans-light';
+}
+
+.div_desejo_legenda_comprardesejo{
+    cursor: pointer;
+    background-color:#ebebeb;
+    color:green;
+    width:100%;
+    height:34%;
+    padding-top:5%;
+    padding-left:7.5%;
+    font-family:'clear-sans-medium';
+}
+
+.div_desejo_produtosbuttonbuy{
+    text-align: center;
+    background-color: #363636;
+    color: #d58512;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    cursor:pointer;
+    width:100%;
+    font-family:'clear-sans-light';
+}
+
+.div_desejo_descricao_texto{
+    background-color:#b7b7b7;
+    max-height:120px;
+    color:white;
+    font-family:'clear-sans-medium';
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top:5%;
+    padding-left:5%;
+    padding-bottom:5%;
+    -moz-box-shadow:inset 0px 0px 5px rgba(0,0,0,0.9);
+    -webkit-box-shadow:inset 0px 0px 5px rgba(0,0,0,0.9);
+    box-shadow:inset 0px 0px 5px rgba(0,0,0,0.9);
+}
+
+/* Webkit para o placeholder */
+#input_pesquisa_modelos::-webkit-input-placeholder {
+    color: white;
+    font-family: clear-sans-thin;
+}
+
+#input_pesquisa_modelos:-moz-placeholder{
+    color: white;
+    font-family: clear-sans-thin;
+}
+
+#input_pesquisa_modelos::-moz-placeholder {
+    color: white;
+    font-family: clear-sans-thin;
+}
+
+#input_pesquisa_modelos:-ms-input-placeholder {
+    color: white;
+    font-family: clear-sans-thin;
+}
+
+.input_modelo_novo::-webkit-input-placeholder {
+    color: white;
+    font-family: clear-sans-thin;
+}
+
+.input_modelo_novo:-moz-placeholder{
+    color: white;
+    font-family: clear-sans-thin;
+}
+
+.input_modelo_novo::-moz-placeholder {
+    color: white;
+    font-family: clear-sans-thin;
+}
+
+.input_modelo_novo:-ms-input-placeholder {
+    color: white;
+    font-family: clear-sans-thin;
+}
+
+/* mCustomScrollBar CSS */
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color: #a8a8a8;
+}
+
+.mCSB_scrollTools{
+	height: 98%;
+}
+
+.mCSB_scrollTools .mCSB_draggerContainer{
+	top: 5px;
+}

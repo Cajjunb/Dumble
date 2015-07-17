@@ -1,0 +1,9 @@
+
+
+"id_usuario" = id do usuario
+"nome_usuario" = nome do usuario com o id do usuario
+"perfil_usuario" = fk_id_perfil do usuario atual
+"fk_fornecedor" =  id do perfil de fornecedor
+"fk_usuario"	=  id do perfil de usuario padrão
+"fk_administrador" =  id do perfil de administrador
+"complemento_view" = "array com strings de css para complementar a view"

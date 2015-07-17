@@ -1,0 +1,130 @@
+.slick_amigos_slide{
+    padding-left: 55px;
+}
+
+.slick_amigos_slide .slick-slider{
+
+	margin-bottom: 0px;
+	width: 730px;
+
+}
+
+.slick_filter{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.slick-list{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.slick-prev,.slick-prev:hover,.slick-prev:visited,
+.slick-prev:active,.slick-prev:focus {
+    height: 60px;
+  	width: 40px;
+  	top: 40%;
+  	background-image: url('../img/seta_icon-esquerda.png');
+  	background-size: cover;
+}
+
+.slick-prev:before{
+	content:"" !important;
+}
+
+.slick-next,.slick-next:hover,.slick-next:visited,
+.slick-next:active,.slick-next:focus{
+    height: 60px;
+  	width: 40px;
+  	top: 40%;
+    background-image: url('../img/seta_icon.png');
+  	background-size: cover;
+}
+
+.slick-next:before{
+	content:"" !important;
+}
+
+.slick-slide{
+	padding-left: 0px;
+	padding-right: 0px;
+	height:150px;
+	width: 150px;
+}
+
+.slick-slide img{
+	padding:0px;
+}
+
+
+.slick_nome_amigo{
+  position: absolute;
+  bottom: 0px;
+  font-family: bebasNeue;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  background-color:#000004 ;
+  opacity: 0.2;
+  width:100%;
+  max-width: 165px;
+  transition:1s;
+}
+
+.slick-slide:hover .slick_nome_amigo
+{
+  opacity: 0.7;
+}
+
+.slick_ja_tenho_target .slick-list{
+  height: 200px ;
+}
+
+
+.slick_ja_tenho_img_box2{  
+    /* background: #b7b7b7; */
+  height: 150px;
+  width: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+  padding-top: 3px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+.slick_ja_tenho_target .slick_ja_tenho_img2{
+  height: 150px !important;
+  width: 120px !important;
+}
+
+.slick_ja_tenho_label{
+    font-family: BebasNeue;
+    color: #f5882e;
+
+}
+
+
+.slick_ja_tenho_img_box2 .slick_ja_tenho_img{
+	  background: #b7b7b7;
+  padding: 3px;
+  border-radius: 50px;
+  height: 100px;
+  width: 120px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.slick_ja_tenho_img_box2 .slick_ja_tenho_aux_img{
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0px;
+}
+
+.slick_ja_tenho_margem_branca{
+  padding: 5px;
+}
+

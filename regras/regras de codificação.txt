@@ -1,0 +1,6 @@
+﻿
+Regras codificação:
+
+1 -  Evitar quebras de linhas desnecessárias
+2 -  Arrays muito grandes utilize qubras de linhas
+3 -  Comente um paragrafo pequeno antes de todas as Funções

@@ -1,0 +1,9 @@
+protocolo de imagens
+
+pastas das imagens: assets/imgs/user_imgs
+
+1	-	<id_user>_user.jpg < -- Imagem principal do usuario
+
+2	-	<id_user>_user-1.jpg < -- Imagem auxiliar numero 1 do usuario
+
+3	-	<id_user>_user-2.jpg < -- Imagem auxiliar numero 2 do usuario

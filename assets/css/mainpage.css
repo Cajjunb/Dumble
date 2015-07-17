@@ -1,0 +1,396 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+a:hover{
+  color:initial !important;
+  text-decoration: none !important;
+}
+
+#content{
+	background-color: #ffffff;
+	vertical-align: baseline;
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper{
+	background-size:100%;
+	background-color: #ffffff;
+	width: 100%;
+	height: 2260px;
+	vertical-align: baseline;
+	margin: 0 auto;
+	overflow: hidden;
+	display: block;
+}
+
+#top {
+  width: 101%;
+  vertical-align: baseline;
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  padding: 0;
+  /* margin-bottom: 23%; */
+}
+
+
+
+#top .logo{
+	height: 100px;
+  /* margin-left: 14%; */
+  	margin-top: 5%;
+	display: inline-block;
+}
+
+.top-right{
+	float: right;
+	width: 28.5%;
+}
+
+.buttons{
+	margin-top:10%;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	float: right;
+	width: 100%;
+	clear: both;
+}
+
+.buttons img{
+	height: 4%;
+	margin-top: 2.5%;
+	margin-left: 1.5%;
+}
+
+.button1{
+	width: 100%;
+}
+
+.button2{
+	width: 90%;
+	float: right;
+	clear: both;
+}
+
+.orange-box{
+	background-color: rgb(249,167,41);
+	margin-bottom: 2.5%;
+	padding: 2%;
+}
+
+.button-text{
+	color: white;
+	font-family:"clear-sans-light";
+	font-size: 100%;
+	text-decoration: none;
+	cursor:pointer;
+	margin: 3px 0px 5px 5px;
+}
+
+.login-form{
+	height: 40%;
+	width: 50%;
+	opacity: 1;
+	margin-top: 150px;
+}
+
+.login-form .input-box{
+	width: 90%;
+	background-color: white;
+	border: 0px;
+	height: 120%;
+	color: rgb(249,167,41);
+}
+
+#arrow_button2{
+	cursor: pointer;
+}
+
+.login-form .form-button{
+	margin-top: 10px;
+  margin-bottom: 10px;
+	background-color: white;
+	border: 0px;
+	color: rgb(249,167,41);
+	height: 30px;
+	width: 70px;
+}
+
+.login-form .form-button:hover{
+	border: 1px solid red;
+}
+
+#section-1{
+	font-family: "BebasNeue";
+	height: 20%;
+	padding: 0;
+}
+
+#section-1 h1{
+	font-weight: normal;
+	font-family: "BebasNeue";
+	color: white;
+	font-size: 45px;
+}
+
+.bottom-left{
+	border: 2px dotted red;
+	margin-top: 32%;
+	margin-left: 12%;
+}
+
+
+.mainpage_titulo{
+    color: white; 
+    text-decoration: blink;
+    text-shadow: 2px 2px 2px gray;
+    font-family: "BebasNeue";
+}
+
+.mainpage_bt,
+.mainpage_bt:hover,
+.mainpage_bt:focus,
+.mainpage_bt:active {
+  border-color: transparent;
+  background-color: transparent;
+  position: relative;
+  width: 500px;
+}
+.mainpage_bt:hover,
+.mainpage_bt:focus {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  outline:0;
+}
+.mainpage_bt[disabled]:hover,
+fieldset[disabled] .bt:hover,
+.mainpage_bt[disabled]:focus,
+fieldset[disabled] .bt:focus {
+  color: transparent;
+  text-decoration: none;
+}
+
+.mainpage_caixaTexto{
+	background-color: white;
+	opacity: 0.7;
+	position: absolute;
+  	bottom: 20%;
+
+}
+
+.col-md-offset-1.col-md-3.mainpage_caixaTexto {
+  position: absolute;
+  margin-bottom: 100px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.mainpage_formatacao{
+	opacity: 1.5;
+	font-size:100%;
+}
+
+.mainpage_espacamento_0{
+	  max-width: 2800px;
+  /* margin-top: 100px; */
+  background-image: url("../img/garotos-compressed.jpg");
+  background-size: 100% 112%;
+  background-position-y: 70px;
+  height: 680px;
+  margin: -10px;
+  width: 102%;
+  position: relative;
+
+}
+
+.mainpage_espacamento_1{
+	position: absolute;
+  	bottom: 30px;
+}
+.mainpage_espacamento_2{
+  background-image: url("../img/arvores_compressed.gif");
+  position: relative;
+  height: 680px;
+  background-size: 100% 100%;
+  /* margin-bottom: 13%; */
+  bottom: 150px;
+  z-index: 1;
+}
+.mainpage_espacamento_3{
+	background-image: url("../img/abraco-compressed.gif");
+	position: relative;
+	height: 680px;
+	background-size: 100% 100%;
+	bottom: 330px;
+	  /* margin-bottom: 13%; */
+}
+
+.mainpage_espacamento_3 .mainpage_caixaTexto{
+  position: absolute;
+  right: 100px;
+  top: 25%;
+  padding: 20px;
+  height: 280px;
+  text-align: justify;
+
+}
+#mainpage_comoFunciona{
+  position: absolute;
+  bottom: 35px;
+  right: 15%;
+}
+#mainpage_queroEntrar{	
+  position: absolute;
+  bottom: 55px;
+}
+.mainpage_form_cadastrar{
+	  background-image: url("../img/velha-compressed.gif");
+  position: relative;
+  height: 680px;
+  background-size: 100% 100%;
+  /* margin-bottom: 13%; */
+  bottom: 475px;
+  width: 107%;
+  margin: -13px;
+  padding: 0px;
+  z-index: 1;
+}
+
+.mainpage_form_element{
+	  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+.mainpage_form{
+	background-color:#f5852e;
+	color:white;
+	font-family: clear-sans-thin;
+	margin-bottom: 2%
+
+}
+.mainpage_formTamanho_1{
+	width: 90%
+}
+.mainpage_formTamanho_2{
+	width: 44%;
+	margin-right:2%;
+}
+
+.mainpage_form::-webkit-input-placeholder {
+    color: white;
+    font-size: 12px;
+    font-family: clear-sans-thin;
+    border-radius: 0px;
+}
+
+.mainpage_form:-moz-placeholder{
+    color: white;
+      padding: 5px;
+  font-size: 20px;
+    font-family: clear-sans-thin;
+}
+
+.mainpage_form::-moz-placeholder {
+    color: white;
+      padding: 5px;
+  font-size: 20px;
+    font-family: clear-sans-thin;
+}
+
+.mainpage_form:-ms-input-placeholder {
+    color: white; 
+     padding: 5px;
+  font-size: 20px;
+    font-family: clear-sans-thin;
+
+
+}
+
+
+#mainpage_captcha::-webkit-input-placeholder {
+    color: #f5852e;
+    font-size: 20px;
+    font-family: clear-sans-thin;
+    border-radius: 0px;
+}
+
+#mainpage_captcha:-moz-placeholder{
+    color: #f5852e;
+      padding: 5px;
+  font-size: 20px;
+    font-family: clear-sans-thin;
+}
+
+#mainpage_captcha::-moz-placeholder {
+    color: #f5852e;
+      padding: 5px;
+  font-size: 20px;
+    font-family: clear-sans-thin;
+}
+
+#mainpage_captcha:-ms-input-placeholder {
+    color: #f5852e; 
+     padding: 5px;
+  font-size: 20px;
+    font-family: clear-sans-thin;
+
+}
+
+.mainpage_login_form{
+}
+
+.mainpage_form_cadastrar input{
+	color:white !important;
+}
+
+.mainpage_form_input{
+  padding: 5px;
+  font-size: 25px;
+
+}
+
+.mainpage_form_cadastrar input::-webkit-input-placeholder { 
+	padding: 5px;
+	font-size: 20px;
+} 
+.mainpage_form_cadastrar input::-moz-placeholder {
+	padding: 5px;
+  	font-size: 20px;
+} 
+
+#mainpage_botao_voltar{
+  position: fixed;
+  bottom: 15%;
+  right: 10%;
+  z-index: 5;
+}
+
+
+#mainpage_submit div{
+	  background: #f5852e;
+	  height: 75px;
+	  width: 75px;
+	  text-align: center;
+	  vertical-align: middle;
+	  color: white;
+  border-radius: 50px;
+  cursor:pointer;
+}
+
+#mainpage_submit p{
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+}
+
+.realperson-text,
+.realperson-regen{
+	color:white;
+}

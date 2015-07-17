@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Liberation";
+    src: url("../fonts/Liberation-Sans/LiberationSans-Regular.ttf"); /* para IE */   
+}
+
+@font-face{
+    font-family: "clear-sans";
+    src: url("../fonts/clear-sans/ClearSans-Regular.ttf"); /* para IE */
+
+}
+
+@font-face{
+    font-family: "BebasNeue";
+    src:url("../fonts/BebasNeue/BebasNeue.otf");
+}
+
+@font-face{
+    font-family: "clear-sans-medium";
+    src: url("../fonts/clear-sans/ClearSans-Medium.ttf");
+}
+
+@font-face{
+    font-family:"clear-sans-light";
+    src: url("../fonts/clear-sans/ClearSans-Light.ttf");
+}
+
+@font-face{
+    font-family:"clear-sans-thin";
+    src: url("../fonts/clear-sans/ClearSans-Thin.ttf");
+}
+
+*{
+    font-family: Liberation;
+}
+
+input{
+      border-radius:5px;
+}
+
+
